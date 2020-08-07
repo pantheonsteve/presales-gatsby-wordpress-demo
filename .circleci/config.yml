@@ -21,6 +21,9 @@ parameters:
 
 workflows:
   version: 2
+  build_and_deploy:
+    jobs:
+      - pfe/gatsby-build-and-deploy
   build_and_deploy_main:
     when:
       and:
@@ -32,7 +35,7 @@ workflows:
             - pfe/gh-status:
                 state: "pending"
                 target_url: $CIRCLE_BUILD_URL
-                description: "Starting Gatsby Build"
+                description: "Starting a Gatsby Build"
                 context: "pantheon/webops"
           post-steps:
             - pfe/gh-status:
