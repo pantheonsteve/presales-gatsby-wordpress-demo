@@ -37,7 +37,7 @@ const Footer = ({ description, contactInfo }) => {
         <Grid item md={2} />
         <Grid item md={5} className={classes.footerContent}>
           <Typography variant="subtitle1" gutterBottom>
-            Contact Us
+            Contact Us!
           </Typography>
           <Typography variant="caption" color="textSecondary">
             {contactInfo.map((info) => (
