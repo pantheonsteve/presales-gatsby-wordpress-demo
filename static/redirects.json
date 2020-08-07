@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/wp-admin/",
+      "destination": "https://dev-presales-wp-decoupled-demo.pantheonsite.io/wp-admin/",
+      "status": 301
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "https://dev-presales-wp-decoupled-demo.pantheonsite.io/wp-login.php",
+      "status": 301
+    }
+  ]
+}

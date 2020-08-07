@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-wordpress-demo",
+  "description": "Decoupled Wordpress and gatsby site using gatsby-source-wordpress@next",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": {
+    "name": "Pantheon Systems",
+    "email": ""
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "cdev": "gatsby clean && gatsby develop",
+    "cbuild": "gatsby clean && gatsby build",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "dotenv": "^8.2.0",
+    "formik": "^2.1.4",
+    "gatsby": "^2.20.29",
+    "gatsby-cli": "^2.12.72",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-material-ui": "^2.1.9",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-source-wordpress-experimental": "^0.0.41",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "gatsby-wordpress-experimental-inline-images": "^0.0.3",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "typeface-roboto": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
