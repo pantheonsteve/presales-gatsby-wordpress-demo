@@ -58,7 +58,7 @@ workflows:
             - pfe/gh-status:
                 state: "pending"
                 target_url: $CIRCLE_BUILD_URL
-                description: "Starting Gatsby build"
+                description: "Starting the Gatsby build"
                 context: "pantheon/webops"
           post-steps:
             - pfe/gh-status:
